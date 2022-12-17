@@ -16,10 +16,13 @@
     <div class="right">
       <ul>
         <li>
-          <a href="#">About Me</a>
-          <a href="#">Work</a>
-          <a href="#">Resume</a>
-          <a href="#">Contact Me</a>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
         </li>
       </ul>
     </div>
@@ -35,12 +38,13 @@
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
+    <div id="about" class="page-section">
       <h2>About Me</h2>
-    </section>
+      <p>This will be a section about me and what I can and want to do.</p>
+    </div>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <div id="work" class="page-section">
       <h2>Work</h2>
       <div class="flex-container">
         <a href="#" class="background1 flex-item">
@@ -84,13 +88,21 @@
           </div>
         </a>
       </div>
-    </section>
+    </div>
     <!-- contact -->
-    <section class="footer" id="contact">
+    <div id="contact" class="footer">
       <h2>Contact Me</h2>
-      <a href="#" class="email">Email</a>
-      <a href="#" class="gitHub">GitHub</a>
-    </section>
+      <div class="contactInfo">
+        <ul>
+          <li>
+            <!-- add symbol before -->
+            <a href="#" class="email">Email</a>
+            <a href="#" class="gitHub">GitHub</a>
+            <a href="#" class="linkedin">linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </main>
 </body>
 
