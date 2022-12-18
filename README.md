@@ -1,5 +1,5 @@
 # Portfolio
-My [portfolio]() in the form of a responsive webpage to showcase the web applications I have created to potential employers.
+My [portfolio](https://amikerb.github.io/Portfolio/) in the form of a responsive webpage to showcase the web applications I have created to potential employers.
 The webpage features a navigation bar at the top, an about me section, a section with clickable tiles with links to my
 web applications. These tiles have shodows when the cursor hovers over them. Finally a contact me footer with clickable
 links to various ways to contact me.
