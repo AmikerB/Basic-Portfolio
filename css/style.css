@@ -168,25 +168,25 @@ ul li {
 }
 
 .background1 {
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/cheatsheet.png);
   background-size: cover;
   background-position: center;
 }
 
 .background2 {
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/prework-study-guide.png);
   background-size: cover;
   background-position: center;
 }
 
 .background3 {
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../images/Horiseon.png);
   background-size: cover;
   background-position: center;
 }
 
 .background4 {
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
   background-position: center;
 }
