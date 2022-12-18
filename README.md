@@ -7,10 +7,10 @@ links to various ways to contact me.
 ## Usage
 
 ### Screenshot of webpage on a desktop:
-![alt text](/Images/127.0.0.1_5500_index.html(iPad%20Air)
+![alt text](/Images/desktop-view.png)
 
 ### Screenshot of webpage on a smaller device such as a phone:
-![alt text](/images/127.0.0.1_5500_index.html(iPhone%20XR)
+![alt text](/images/phone-view.png)
 
 ## Credits
 
