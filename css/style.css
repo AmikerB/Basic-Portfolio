@@ -1,4 +1,5 @@
-/* how to do root */
+/*/////////// GENERAL STYLES ///////////*/
+
 :root {
   --light: rgb(226, 220, 230);
   --dark: rgb(123, 15, 8);
@@ -17,6 +18,8 @@ body {
   background-color: var(--light);
 }
 
+/* main header */
+
 header {
   background-color: var(--dark);
   padding: 15px 15px;
@@ -28,6 +31,8 @@ h1 {
   margin: 0 15px;
   background-color: var(--light);
 }
+
+/* headings */
 
 h1,
 h2 {
@@ -48,6 +53,8 @@ h4 {
   font-size: .7rem;
   color: var(--light);
 }
+
+/* content */
 
 p {
   font-size: 1.2rem;
@@ -71,6 +78,8 @@ ul li {
   display: inline-block;
 }
 
+/*/////////// UTILITIES ///////////*/
+
 .page-section {
   display: flex;
   margin-bottom: 20px;
@@ -89,6 +98,8 @@ ul li {
   text-align: center;
 }
 
+/* Heading */
+
 .left {
   float: left;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -99,6 +110,8 @@ ul li {
   padding-left: 50px;
 
 }
+
+/* navigation bar */
 
 .right {
   padding-top: 10px;
@@ -132,6 +145,8 @@ ul li {
   margin-left: 20px;
 }
 
+/* hero banner and subtitle */
+
 .hero {
   height: 200px;
   width: 100%;
@@ -157,6 +172,8 @@ ul li {
   background-color: var(--dark);
   margin-right: -10px;
 }
+
+/* main page content */
 
 .aside {
   width: 300px;
@@ -231,6 +248,8 @@ ul li {
   box-shadow: -10px 10px 5px 2px rgb(58, 14, 14);
 }
 
+/* footer */
+
 .footer {
   display: flex;
   clear: both;
@@ -255,6 +274,7 @@ ul li {
   min-height: 300px;
 }
 
+/*/////////// MEDIA ///////////*/
 
 */ @media screen and (min-width:768px) {
   .flex-item {
