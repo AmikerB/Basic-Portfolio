@@ -1,0 +1,330 @@
+/*/////////// GENERAL STYLES ///////////*/
+
+:root {
+  --light: rgb(226, 220, 230);
+  --dark: rgb(123, 15, 8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  background-color: var(--light);
+}
+
+/* main header */
+
+header {
+  background-color: var(--dark);
+  padding: 15px 15px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--dark);
+  margin: 0 15px;
+  background-color: var(--light);
+}
+
+/* headings */
+
+h1,
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  height: 100%;
+  color: var(--dark);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  height: 100%;
+  color: var(--light);
+}
+
+h4 {
+  font-size: .7rem;
+  color: var(--light);
+}
+
+/* content */
+
+p {
+  font-size: 1.2rem;
+  color: var(--dark);
+  margin-right: 10px;
+}
+
+a {
+  color: var(--light);
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+/*/////////// UTILITIES ///////////*/
+
+.page-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.my-image {
+  width: 200px;
+  height: 200px;
+  border: 5px solid var(--dark);
+  margin-right: 10px;
+  margin-left: 9px;
+}
+
+.about-me-section {
+  display: flex;
+  text-align: center;
+}
+
+/* Heading */
+
+.left {
+  float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  margin-left: -15px;
+  padding: 0 0;
+  padding-right: 15px;
+  padding-left: 50px;
+
+}
+
+/* navigation bar */
+
+.right {
+  padding-top: 10px;
+  margin-right: 10px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: var(--light);
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.clear {
+  clear: both;
+}
+
+.right ul {
+  list-style-type: none;
+}
+
+.right ul li {
+  display: inline-block;
+  color: var(--light);
+  margin-left: 20px;
+}
+
+/* hero banner and subtitle */
+
+.hero {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/63151.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  flex-basis: calc(50% - 1em);
+  min-height: 200px;
+}
+
+.subtitle h2 {
+  color: var(--light);
+  padding: 10px;
+  color: var(--light);
+  background-color: var(--dark);
+  margin-right: -10px;
+}
+
+/* main page content */
+
+.aside {
+  width: 300px;
+  text-align: right;
+  flex-shrink: 0;
+  margin-right: 20px;
+  padding: 5px 20px;
+  border-right: 3px solid var(--dark);
+}
+
+.background1 {
+  background-image: url(../images/cheatsheet.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.background2 {
+  background-image: url(../images/prework-study-guide.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.background3 {
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background4 {
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background5 {
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.flex-item {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  flex-basis: calc(50% - 1em);
+  min-height: 150px;
+  margin: .5em;
+  border: 5px solid var(--dark);
+}
+
+.flex-item:first-child {
+  min-height: 300px;
+  flex-basis: calc(100% - 1em)
+}
+
+.flex-item div {
+  background-color: rgb(123, 15, 8, 0.8);
+  padding: 10px;
+  align-items: center;
+  margin-left: -5px;
+}
+
+.flex-item:hover {
+  box-shadow: -10px 10px 5px 2px rgb(58, 14, 14);
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactInfo {
+  padding-top: 30px;
+  margin: 10px 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.contactInfo a {
+  color: var(--dark);
+  margin-left: 20px;
+}
+
+.flex-item:first-child {
+  min-height: 300px;
+}
+
+/*/////////// MEDIA ///////////*/
+
+*/ @media screen and (min-width:768px) {
+  .flex-item {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .subtitle {
+    padding-right: 10px;
+    margin-right: -10px;
+  }
+
+  .my-image {
+    width: 50%;
+    height: 50%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .page-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside {
+    text-align: left;
+    border: none;
+    border-bottom: 3px solid var(--dark);
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .contactInfo a {
+    margin: 5px;
+    justify-content: space-evenly;
+  }
+}
